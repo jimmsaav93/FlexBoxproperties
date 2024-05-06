@@ -1,0 +1,44 @@
+body {
+    display: flex;
+  }
+  
+  #green {
+    background-color: green;
+    order:3;
+    margin: px 30px 0px 30px;
+    padding: 40px;
+    
+  }
+  
+  #yellow {
+    background-color: yellow;
+    order:1;
+    margin: 0px 30px 0px 30px;
+    padding: 40px;
+
+  }
+  
+  #red {
+    background-color: red;
+    order:2;
+    margin: 0px 30px 0px 30px;
+    padding: 40px;
+  }
+  
+  #blue {
+    background-color: blue;
+    order:5;
+    margin: 0px 0px 0px 0px;
+    padding:30px;
+  }
+  
+  #orange {
+    background-color: orange;
+    order:4;
+    margin: 0px 30px 0px 30px;
+    padding: 90px;
+  }
+  
+  ul {
+    flex-flow: column;
+  }
